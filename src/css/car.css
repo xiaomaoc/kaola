@@ -1,0 +1,77 @@
+/* 
+* @Author: Marte
+* @Date:   2018-08-26 11:10:12
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-08-26 14:03:57
+*/
+#box .content{background: #fff;}
+#box .content .a_content{
+    
+    margin-left:90px;
+    font-weight: bold;
+}
+#box .content .a_content h3{display:inline-block;
+    }
+#box .content .a_content p{
+    float:right;
+    margin-right: 251px;
+}
+#box .content .b_content{
+
+    position: relative;
+    margin-top: 15px;
+    color: #333;
+}
+#box .content .b_content .bi_content{
+    border: 1px solid #eaeaea;
+    width:1093px;
+}
+#box .content .bi_content{
+    display:inline-block;
+    
+}
+#box .content .b_c img{
+    float: left;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    margin:0 20px;
+}
+#box .content .b_c{
+   
+    
+    width: 510px;
+    float: none;
+    display: table-cell;
+   
+    vertical-align: top;
+}
+#box .content .b_c span{
+    color: #333;
+    font-size: 12px;
+    display: block;
+    margin-top: 10px;
+}
+#box .content .b_c .two{color:#999;}
+#box .content .xx_b{
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+
+}
+#box .content .d_c{
+    width:88px;
+    margin-top: 10px;
+}
+#box .content .e_c{
+    width:103px;
+    margin-top: 10px;
+}
+#box .content .e_c{
+    width:172px;
+    margin-top: 10px;
+}
+#box .content .btn-close{
+    position:absolute;top:0;right:112px;cursor:default;
+}

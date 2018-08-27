@@ -1,0 +1,57 @@
+/* 
+* @Author: Marte
+* @Date:   2018-08-23 23:32:30
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-08-25 14:21:14
+*/
+#box{background:#F5F5F5;}
+#box .content{width:1008px;
+    padding:10px 0 12px 0;
+    margin:0 auto;}
+#box .content .box_content{margin-right: -8px;zoom:1;}
+#box .content .box_content .a_list{
+    float: left;
+    position: relative;
+    display: inline;
+    width: 244px;
+    height: 366px;
+    background-size: 244px 366px !important;
+    margin: 0 8px 8px 0;
+    zoom: 1;
+    font-size: 12px;
+    background: #fff;
+}
+#box .content .box_content img{
+    display: block;
+    width: 244px;
+    height: 244px;
+
+}
+#box .content .box_content .b_list .bi_list{
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    color:#333;
+    margin-left: 15px;
+}
+#box .content .box_content .b_list .ci_list{
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    line-height: 18px;
+    color:#333;
+    margin-left: 15px;
+    
+}
+#box .content .box_content .b_list .cur{
+    text-align: left;
+    margin:45px 15px;}
+#box .content .box_content .b_list .cur span::before{content:'￥';}    
+#box .content .box_content .b_list .cur .price{color:#ff1e32;font-size: 20px;}
+#box .content .box_content .b_list .cur .ccr{
+    margin-left: 10px;
+    color: #999;
+    font-size: 14px;}

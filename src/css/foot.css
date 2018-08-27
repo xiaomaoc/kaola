@@ -1,0 +1,48 @@
+#box .di{height:411px;
+    background:#fff;}
+#box .di .di_a{margin:50px 12px 0 122px;}
+#box .di .di_l li{float: left;
+    width: 233px;
+    margin-left: 35px;}
+#box .di .di_a .ai{width:44px;height:44px;
+    line-height:44px;
+    font-size:20px;
+    font-weight:700;
+    text-align: center;
+    border:2px solid #D5D5D5;
+    border-radius:50%;
+    display: inline-block;
+    float: left;}
+#box .di .di_a .bi{float:left;
+    display:block;
+    margin-left:12px;}
+#box .di .di_a .ci{display:block;
+    font-size: 14px;padding-top:22px;
+    color:#5D5D5D;line-height: 22px;
+    margin-left:12px;}
+#box .di .di_c .di_im{width: 218px;
+    padding-right: 58px;
+    padding-left: 0;}
+
+
+#box .di .di_b{padding-top: 192px;
+    margin-left: 75px;}
+#box .di .di_c li{float:left;width:110px;
+    height:128px;
+    padding:0 0 0 21px;}
+#box .di .di_c li dt{margin:-4px 0 10px;
+    color:#323232;}
+#box .di .di_c li a{line-height:29px;
+    color:#323232;
+    font-size: 12px;}
+#box .wei{height:154px;background:#323232;
+    position: relative;
+    padding: 20px 0;
+    background: #333;
+    line-height: 26px;
+    text-align: center;}
+#box .wei a,#box .wei span{color:#C1C1C1;
+    margin-top:5px;
+    font-size: 12px;}
+#box .wei .wei_d{display:block;
+    margin:10px auto;}

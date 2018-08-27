@@ -1,0 +1,159 @@
+/* 
+* @Author: Marte
+* @Date:   2018-08-24 14:56:44
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-08-26 12:39:50
+*/
+#box{background:#fff;}
+
+#box .contents{
+    overflow:hidden;
+    min-height: 700px;
+    background: #fff;
+    margin: 0 20px 0 0;
+    position: relative;}
+#box .contents .cont{
+    position: relative;
+    top: 75px;
+    left: 100px;
+    border: 1px solid #eee;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    cursor: crosshair;
+}
+#box .contents .cont img{
+    width:400px;
+    height:400px;
+    z-index: 1;
+}
+
+
+
+
+#box .contents .a_cont{
+    position: relative;
+    float: left;
+    left:485px;
+    top:-320px;
+    width: 658px;
+    margin-left: 30px;
+    font-size: 12px;
+    
+} 
+#box .contents .a_cont dt:first-child{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color:#333;
+    margin-left: 10px;
+    /*overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;*/
+}
+#box .contents .a_cont .xx_c{
+    margin-bottom: 11px;
+    color: #333;
+    line-height: 20px;
+    font-size: 13px;
+    margin-left:10px;
+}
+#box .contents .a_cont .cur{
+    overflow: hidden;
+    position: relative;
+    padding-top: 5px;
+    z-index: 100;
+}
+#box .contents .a_cont .cur span:first-child{
+    float: left;
+    margin-right: 20px;
+   line-height: 26px;
+    vertical-align: 4px;
+    font-size: 12px;
+    margin-left:10px;
+    color:#999;
+}
+#box .contents .a_cont .cur .price{
+    font-size: 26px;
+    color: #e31436;
+    font-weight: bold;
+    vertical-align: baseline;
+    line-height: 1;
+    margin: 0 15px;
+}
+#box .contents .a_cont .cur .ccr{
+    font-size: 12px;
+    color:#999;
+    line-height: 26px;
+    margin-top: 5px;
+}
+#box .contents .a_cont .b_cont{
+    margin-top: 2px;
+}
+#box .contents .a_cont .b_cont span{
+    float: left;
+    margin-right: 20px;
+   line-height: 26px;
+    vertical-align: 4px;
+    font-size: 12px;
+    margin-left:10px;
+    color:#999;
+}
+#box .contents .a_cont .b_cont li{
+    float: left;
+    display: inline;
+    margin-top: 50px;
+    margin-right: 7px;
+    position: relative;
+    height: 30px;
+    white-space: nowrap;
+}
+#box .contents .a_cont .b_cont li a{
+    margin: 1px 50px 1px 1px;
+    padding: 2px 12px 2px 12px;
+    border: 1px solid #ccc;
+    display: block;
+    float:left;
+    height: 18px;
+    line-height: 18px;
+    margin-left:10px;
+    text-align: center;
+    cursor: pointer;
+    color:#333;
+}
+#box .contents .a_cont .b_cont li a:hover{
+    border:1px solid #d41c44;
+}
+#box .contents .a_cont .c_cont{
+    display:block;
+    clear:both;
+}
+#box .contents .a_cont .c_cont li{margin-top: 20px;}
+#box .contents .a_cont .d_cont{
+    margin-top: 50px;
+    float:left;
+    display:block;
+}
+#box .contents .a_cont .d_cont a{
+    position: relative;
+    width: 156px;
+    height: 46px;
+    border: 2px solid #d41c44;
+    background-color: #d41c44;
+    color: #fff;
+    line-height: 46px;
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+#box .contents .a_cont .d_cont a:hover{
+    background:#ffc0cfd9;
+}
